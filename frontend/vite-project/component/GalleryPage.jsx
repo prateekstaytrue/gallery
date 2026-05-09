@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // ─── API base — change to your Express URL in production ──────────────────
-const API = import.meta.env.VITE_API_URL || "http://localhost:4000/api";
+const API = "https://gallery-api-pddu.onrender.com/api";
 
 // ─── Sticker picker options ───────────────────────────────────────────────
 const STICKERS = ["🌸", "✨", "🎀", "💕", "🐰", "💜", "🌟", "💎", "🌷", "⭐", "🩷", "🐻", "💙", "🌈", "🦋"];
